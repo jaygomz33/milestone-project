@@ -1,0 +1,221 @@
+/***** BASE STYLES *****/
+body {
+  font-family: Poppins, 'Josefin Sans', Righteous, Ubuntu;
+  color: #B9FFB7;
+
+}
+
+#about, #work, #contact, #bonus {
+    height: 600px;
+}
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    padding-left: 50px;
+}
+.half-width {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 20px;
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: right;
+}
+nav {
+padding-left: 1000px;
+}
+/****** HEADER ******/
+header {
+    height: 1400px;
+    background: url('../img/alessandra-caretto-770436-unsplash-5.jpg');
+    background-size: cover;
+}
+header h1 {
+    font-family: Righteous;
+    font-size: 40px;
+    color: #6699ff;
+    padding: 65px 0 25px 25px;
+}
+nav {
+    float: right;
+    padding: 105px 0 0 300px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 50px;
+    color: #00ffcc;
+
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: Ubuntu;
+    font-size: 25px;
+    line-height: 80px;
+    letter-spacing: inherit;
+    color: #ffcc99;
+    padding: 25px 0 20px 7px;
+}
+header h2 span {
+    color: #33cccc;
+}
+p {
+  font-size: 30px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: black;
+}
+
+/****** ABOUT ******/
+#about h2 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 50px;
+}
+#about p {
+
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+
+}
+#about .full-width {
+    padding: 80px 0;
+}
+
+/****** WORK ******/
+
+#work {
+  background-color: #ccffff;
+    height: 900px;
+
+}
+
+#work .full-width {
+      width: 1200px;
+    padding: 200px 0;
+    padding-left: 75px;
+    background-size: cover;
+
+}
+#work .third-width {
+    padding: 15px 0;
+    float: left;
+    background-color: #ccffff;
+}
+#work img {
+    padding-bottom: 30px;
+    padding-left: 75px;
+    width: auto;
+    text-align: center;
+    background-size: cover;
+}
+#work h3 {
+    color: black;
+    font-size:20px;
+    text-align: center;
+    line-height:40px;
+    width:300px;
+    margin: auto;
+    background-color: #ccffff;
+    background-size: cover;
+}
+#work p {
+    color: grey;
+    font-family: Ubuntu;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    line-height:40px;
+    padding: 0 50px;
+    background-color: #ccffff;
+    background-size: cover;
+}
+/****** Contact ******/
+#contact {
+    background-color: #B9FFB7;
+
+    height: 910px;
+
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img {
+    padding-bottom: 30px;
+    padding-left: 75px;
+    border: 12px solid #ccffff;
+    width: auto;
+    text-align: center;
+    background-size: cover;
+
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 155px;
+}
+#contact #envelope {
+    padding: 0 10px 0 355px;
+}
+#contact h2 {
+    font-family: Poppins, Ubuntu;
+    font-size: 30px;
+    color: #0099ff;
+    line-height: 30px;
+}
+#contact #email-header{
+    margin: 30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    margin: 40px 0 0 0;
+}
+#contact a {
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+
+}
+/****** BONUS ******/
+#bonus
+{background-color: #B9FFB7;
+}
+#bonus h2 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 50px;
+      background-color: #B9FFB7;
+}
+#bonus p {
+
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+
+}
+#bonus .full-width {
+    padding: 80px 0;
+}
